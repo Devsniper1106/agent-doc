@@ -8,6 +8,7 @@ import {
   HighlightExtension,
   HorizontalRule,
   MarkdownExtension,
+  Mathematics,
   Placeholder,
   StarterKit,
   TaskItem,
@@ -19,7 +20,6 @@ import {
   Twitter,
   UpdatedImage,
   Youtube,
-  Mathematics,
 } from "novel/extensions";
 import { UploadImagesPlugin } from "novel/plugins";
 

@@ -13,8 +13,8 @@ import StarterKit from "@tiptap/starter-kit";
 import { Markdown } from "tiptap-markdown";
 import CustomKeymap from "./custom-keymap";
 import { ImageResizer } from "./image-resizer";
-import { Twitter } from "./twitter";
 import { Mathematics } from "./mathematics";
+import { Twitter } from "./twitter";
 import UpdatedImage from "./updated-image";
 
 import CharacterCount from "@tiptap/extension-character-count";
@@ -60,6 +60,8 @@ const Horizontal = HorizontalRule.extend({
   },
 });
 
+export * from "./comment";
+export * from "./collaboration";
 export * from "./ai-highlight";
 export * from "./slash-command";
 export {
